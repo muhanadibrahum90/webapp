@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #8b61ce, #0a0a0a); /* تدرج لوني من الأخضر إلى الأزرق */
+    color: white;  /* هذا السطر يغير لون النص إلى الأبيض */
+    height: 100vh; /* تأمين الخلفية على الحجم الكامل للصفحة */
+    margin: 0;
+
+}
+
+.search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff; /* لون النص الذي يكتبه المستخدم */
+    width: 220px;
+    margin-right: 10px;
+    background-color: #2f3133;
+    border: 2px solid #2f3133;  /* تحديد اللون للحدود */
+    border-radius: 20px;        /* حدود مدورة */
+    outline: none;              /* إزالة التحديد الخارجي عند النقر */
+    transition: all 0.3s ease;  /* تأثير التبديل عند التفاعل */
+}
+  /* عند التفاعل مع شريط البحث (عند التركيز عليه) */
+    .search-bar:focus {
+     border-color: #2a323a;      /* تغيير لون الحدود عند التركيز */
+     box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);  /* إضافة تأثير الظل */
+ }
+
+
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
